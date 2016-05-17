@@ -1,0 +1,90 @@
+body {
+  text-align: center; 
+  background: #CCC6AD;
+}
+
+header {
+  font-size: 25px;
+}
+
+
+li {
+  margin: 1.5em;
+}
+
+h1 {
+  color: DarkRed;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1:hover {
+  color: yellow;
+}
+
+div {
+  height: 30px;
+  width: 100%;
+  background: DarkRed;
+  color: white;
+  display: block;
+  clear: both;
+}
+
+
+.frame {
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 25%;
+  border: solid 4px DarkRed;
+  margin: 1em;
+}
+
+ul {
+  text-align: left;
+  list-style-position: outside;
+  list-style-type: none;
+}
+
+ol {
+  text-align: left;
+  list-style-type: lower-roman;
+  list-style-position: inside;
+}
+
+img#ingredients {
+  transform: rotate(90deg);
+  max-height: 300px;
+  margin-left: -50px;
+  margin-top: -10px;
+}
+
+img#pan_with_lid {
+  transform: rotate(90deg);
+  max-height: 300px;
+  margin-left: -50px;
+  margin-top: 40px;
+}
+
+img#just_burnt_enough {
+  transform: rotate(90deg);
+  max-height: 270px;
+  margin-left: -45px;
+  margin-top: 0px;
+}
+
+img#cut_sandwich {
+  transform: rotate(90deg);
+  max-height: 270px;
+  margin-left: -50px;
+  margin-top: 20px;
+}
+
+#ingredients_frame {
+  float: right;
+}
+
+.complete {
+  text-decoration: line-through;
+}
