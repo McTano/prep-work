@@ -6,12 +6,12 @@ $(document).ready(function() {
     console.log("clicked");
   });
 
-  $('#photo_hider_ingredients').click(function() {
-    $("#instructions .frame").hide();
+  $('#ingredients #photo_hider').click(function() {
+    $("#ingredients .frame").hide();
     $(this).hide();
   });
 
-    $('#photo_hider_instructions').click(function() {
+    $('#instructions #photo_hider').click(function() {
     $("#instructions .frame").hide();
     $(this).hide();
   });
