@@ -7,12 +7,12 @@ $(document).ready(function() {
   });
 
   $('#photo_hider_ingredients').click(function() {
-    $("ul .frame").hide();
+    $("#instructions .frame").hide();
     $(this).hide();
   });
 
     $('#photo_hider_instructions').click(function() {
-    $("ol .frame").hide();
+    $("#instructions .frame").hide();
     $(this).hide();
   });
 

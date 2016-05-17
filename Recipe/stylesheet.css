@@ -53,7 +53,7 @@ ol {
   list-style-position: inside;
 }
 
-img#ingredients {
+img#ingredients_pic {
   transform: rotate(90deg);
   max-height: 300px;
   margin-left: -50px;
